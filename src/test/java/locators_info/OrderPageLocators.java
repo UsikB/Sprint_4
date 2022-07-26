@@ -5,4 +5,5 @@ public class OrderPageLocators {
     public void print(){
         System.out.println("xxx");
     }
+
 }
