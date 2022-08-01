@@ -13,7 +13,7 @@ public class TestingQA {
 
     @Before
     public void setUp(){
-        mainPageMethods.setUp();
+        mainPageMethods.mainPageSetUp();
     }
 
     @Test
@@ -37,6 +37,6 @@ public class TestingQA {
 
     @After
     public void tearDown(){
-        mainPageMethods.tearDown();
+        mainPageMethods.mainPageTearDown();
     }
 }
