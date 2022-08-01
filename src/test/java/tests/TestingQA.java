@@ -10,6 +10,7 @@ public class TestingQA {
 
     MainPageMethods mainPageMethods = new MainPageMethods();
 
+
     @Before
     public void setUp(){
         mainPageMethods.setUp();
