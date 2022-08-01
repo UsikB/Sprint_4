@@ -57,6 +57,8 @@ public class MainPageLocators {
     String answerOfList2 = "Пока что у нас так: один заказ — один самокат. Если хотите покататься с друзьями, можете просто сделать несколько заказов — один за другим.";
 
 
+
+
     //Раздел "Как рассчитывается время аренды?"
     // //*[@id='accordion__heading-2']
     protected By list3 = By.xpath("//*[@id='accordion__heading-2']");
