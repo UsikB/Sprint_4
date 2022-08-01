@@ -56,6 +56,7 @@ public class RentPageMethods extends RentPageLocators{
         driver.findElement(comment).sendKeys("Поскорее, пожалуйста");
     }
 
+
     // На этом остановился!!!
     // ТУТ БАГ КОТОРЫЙ НЕ ДАЕТ ОФОРМИТЬ ЗАКАЗ!!!!!!!!
     @Test

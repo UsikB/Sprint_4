@@ -21,6 +21,7 @@ public class OrderPageMethods extends OrderPageLocators{
         driver.findElement(firstName).sendKeys(name);
     }
 
+
     public void enterSecondName(String lastName){
         new WebDriverWait(driver, Duration.ofSeconds(60)).until(ExpectedConditions.elementToBeClickable(firstName)).click();
         driver.findElement(secondName).sendKeys(lastName);
