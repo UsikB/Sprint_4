@@ -13,6 +13,7 @@ public class RentPageLocators {
     // Срок аренды "Сутки"
     protected By dayOfRent = By.xpath("//*[@id='root']/div/div[2]/div[2]/div[2]/div[2]/div[1]");
 
+
     // Черный цвет самоката
     protected By blackColor = By.id("black");
     // Серый цвет самоката

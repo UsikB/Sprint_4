@@ -13,6 +13,7 @@ public class MainPageMethods extends MainPageLocators{
     static WebDriver driver = new ChromeDriver();
 
 
+
     public void mainPageSetUp(){
         driver.get(getMainPage());
         new WebDriverWait(driver, Duration.ofSeconds(60)).until(ExpectedConditions.elementToBeClickable(getCookie()));

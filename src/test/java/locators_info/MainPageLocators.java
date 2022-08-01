@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 public class MainPageLocators {
 
 
+
     private String mainPage = "https://qa-scooter.praktikum-services.ru/";
 
     public String getMainPage(){

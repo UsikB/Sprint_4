@@ -9,6 +9,7 @@ public class OrderPageLocators {
     // Поле "Имя"
     protected By firstName =By.xpath("//input[@placeholder='* Имя']");
 
+
     // Поле "Фамилия"
     protected By secondName =By.xpath("//input[@placeholder='* Фамилия']");
 
